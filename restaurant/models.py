@@ -19,8 +19,6 @@ class Menu(models.Model):
    price = models.IntegerField()
    menu_item_desc = models.TextField(max_length=1000, default='')
 
-
-
-def __str__(self):
-   return self.name
+   def __str__(self):
+      return self.name 
    
